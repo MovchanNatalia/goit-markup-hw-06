@@ -715,6 +715,7 @@ img {
   padding-left: 16px;
   margin-right: 12px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
 .contact-input:hover,
@@ -842,7 +843,6 @@ img {
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--bg-color);
-
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
@@ -1013,6 +1013,7 @@ img {
   padding-right: 16px;
   padding-bottom: 12px;
   padding-left: 16px;
+  outline: none;
 }
 
 .comment-text::placeholder {
@@ -1051,6 +1052,9 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-contract {
